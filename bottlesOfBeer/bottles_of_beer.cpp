@@ -1,6 +1,6 @@
 // 99 bottles of beer on the wall
 
-// you could try some sort of string implementation where the string degrades very gradually into complete incoherence while keeping the same number of non-space characters
+// you could try some sort of new string implementation where the string degrades very gradually into complete incoherence while keeping the same number of non-space characters
 // and punctuation
 #include <iostream>
 #include <conio.h>
