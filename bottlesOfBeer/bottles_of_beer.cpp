@@ -9,9 +9,7 @@ using namespace std;
 
 int main()
 {    
-    int i;
-       
-    for(i = 99; i > 0; i--)
+    for(int i = 99; i > 0; i--)
     {
           if(i > 3)
              cout << i << " bottles of beer on the wall, " << i << " bottles of beer,\n"
@@ -26,7 +24,8 @@ int main()
               cout << i << " bottle of beer on the wall, " << i << " bottle of beer,\n"
                    << "Take it down, pass it around...and then we're all out of beers on the wall!\n";
           }// end if
-		  Sleep(4000);
+	     
+	     Sleep(4000);
     }// end for
     
     cout << "\nPresh any kee too continyoooo...";
